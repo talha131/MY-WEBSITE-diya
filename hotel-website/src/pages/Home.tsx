@@ -1,11 +1,13 @@
-
 import React from 'react';
 
 const Home: React.FC = () => {
   return (
     <div className="w-full">
       {/* Hero Section */}
-      <div className="bg-cover bg-center h-screen flex items-center justify-center relative" style={{ backgroundImage: `url('/path-to-hotel-image.jpg')` }}>
+      <div 
+        className="bg-cover bg-center h-screen flex items-center justify-center relative"
+        style={{ backgroundImage: `url('https://th.bing.com/th/id/R.8bd61ae4a8c8df29d773b3e217c6c689?rik=ZwqEb4XFBg6eHA&pid=ImgRaw&r=0')` }}
+      >
         {/* Gradient Overlay */}
         <div className="absolute inset-0 bg-gradient-to-b from-black via-transparent to-black opacity-75"></div>
         <div className="relative z-10 text-center text-white p-8">
@@ -20,23 +22,35 @@ const Home: React.FC = () => {
         <div className="container mx-auto text-center">
           <h2 className="text-4xl font-bold text-gray-800 mb-8">Our Services</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {/* Card 1 */}
+            {/* Card 1: Room Service */}
             <div className="bg-white shadow-lg rounded-lg p-6 hover:shadow-2xl transition-shadow">
-              <img src="/path-to-room-service.jpg" alt="Room Service" className="w-full h-40 object-cover rounded-t" />
+              <img 
+                src="https://images.pexels.com/photos/265920/pexels-photo-265920.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" 
+                alt="Room Service" 
+                className="w-full h-40 object-cover rounded-t" 
+              />
               <h3 className="mt-4 text-2xl font-semibold text-blue-600">Room Service</h3>
               <p className="mt-2 text-gray-600">24/7 room service to cater to all your needs.</p>
             </div>
 
-            {/* Card 2 */}
+            {/* Card 2: Spa & Wellness */}
             <div className="bg-white shadow-lg rounded-lg p-6 hover:shadow-2xl transition-shadow">
-              <img src="/path-to-spa.jpg" alt="Spa" className="w-full h-40 object-cover rounded-t" />
+              <img 
+                src="https://images.pexels.com/photos/3822623/pexels-photo-3822623.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" 
+                alt="Spa & Wellness" 
+                className="w-full h-40 object-cover rounded-t" 
+              />
               <h3 className="mt-4 text-2xl font-semibold text-blue-600">Spa & Wellness</h3>
               <p className="mt-2 text-gray-600">Rejuvenate with our luxury spa treatments.</p>
             </div>
 
-            {/* Card 3 */}
+            {/* Card 3: Gourmet Dining */}
             <div className="bg-white shadow-lg rounded-lg p-6 hover:shadow-2xl transition-shadow">
-              <img src="/path-to-dining.jpg" alt="Dining" className="w-full h-40 object-cover rounded-t" />
+              <img 
+                src="https://images.pexels.com/photos/616354/pexels-photo-616354.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" 
+                alt="Gourmet Dining" 
+                className="w-full h-40 object-cover rounded-t" 
+              />
               <h3 className="mt-4 text-2xl font-semibold text-blue-600">Gourmet Dining</h3>
               <p className="mt-2 text-gray-600">Experience world-class dining with our top chefs.</p>
             </div>
