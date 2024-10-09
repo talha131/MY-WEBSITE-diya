@@ -36,7 +36,7 @@ const Home: React.FC = () => {
             {/* Card 2: Spa & Wellness */}
             <div className="bg-white shadow-lg rounded-lg p-6 hover:shadow-2xl transition-shadow">
               <img 
-                src="https://images.pexels.com/photos/3822623/pexels-photo-3822623.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" 
+                src="https://image9.photobiz.com/8584/25_20210915215133_9645633_large.jpg" 
                 alt="Spa & Wellness" 
                 className="w-full h-40 object-cover rounded-t" 
               />
